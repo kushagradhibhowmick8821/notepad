@@ -1,14 +1,17 @@
 /* styles.css */
+/* styles.css */
 body {
   background-color: #1e1e1e;
   color: #abb2bf;
-  font-family: "Courier New", monospace;
+  font-family: "JetBrains Mono"; /* Use JetBrains Mono as the font */
   margin: 0;
 }
 
 .editor-container {
   height: 60vh;
 }
+
+/* ... (rest of your CSS) */
 
 button {
   background-color: #56b6c2;
@@ -25,7 +28,7 @@ button:hover {
 
 /* Custom neon highlighting */
 .CodeMirror {
-  background-color: #1e1e1e;
+  background-color: #c51919;
   color: #abb2bf;
 }
 
@@ -44,15 +47,29 @@ button:hover {
 
 /* Adjusted sidebar color */
 .CodeMirror-gutters {
-  background-color: #1e1e1e;
-  border-right: 1px solid #abb2bf;
+  background-color: #b79393;
+  border-right: 1px solid #1d1f22;
+}
+/* styles.css */
+body,
+html {
+  margin: 0;
+  height: 100%;
 }
 
-/* Output container styles */
-#output-container {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #2e2e2e;
-  border: 1px solid #56b6c2;
-  color: #abb2bf;
+.CodeMirror {
+  border: none;
+  height: 100vh; /* Adjust the height as needed, 'vh' stands for viewport height */
+}
+/* Customize scrollbar for WebKit browsers */
+.CodeMirror::-webkit-scrollbar {
+  width: 12px;
+}
+
+.CodeMirror::-webkit-scrollbar-thumb {
+  background-color: #4caf50; /* Set your desired scrollbar color */
+}
+
+.CodeMirror::-webkit-scrollbar-track {
+  background-color: #df1212; /* Set your desired track color */
 }
