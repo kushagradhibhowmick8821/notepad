@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  background-color: #1e1e1e;
+  color: #abb2bf;
+  font-family: "Courier New", monospace;
+  margin: 0;
+}
+
+.editor-container {
+  height: 60vh;
+}
+
+button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+/* Custom neon highlighting */
+.CodeMirror {
+  background-color: #1e1e1e;
+  color: #abb2bf;
+}
+
+.CodeMirror-cursor {
+  border-left: 2px solid #56b6c2 !important;
+}
+
+.CodeMirror-selected {
+  background: rgba(86, 182, 194, 0.3) !important;
+}
+
+/* Adjusted font color */
+.CodeMirror pre {
+  color: #abb2bf;
+}
+
+/* Adjusted sidebar color */
+.CodeMirror-gutters {
+  background-color: #1e1e1e;
+  border-right: 1px solid #abb2bf;
+}
+
+/* Output container styles */
+#output-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2e2e2e;
+  border: 1px solid #56b6c2;
+  color: #abb2bf;
+}
