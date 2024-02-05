@@ -4,18 +4,19 @@ body {
   background-color: #1e1e1e;
   color: #abb2bf;
   font-family: "JetBrains Mono"; /* Use JetBrains Mono as the font */
-  margin: 0;
+  margin: 1;
+  margin-bottom: 20vh;
 }
 
 .editor-container {
-  height: 60vh;
+  height: 80vh;
 }
 
 /* ... (rest of your CSS) */
 
 button {
   background-color: #56b6c2;
-  color: #1e1e1e;
+  color: #e3b0b0;
   padding: 10px;
   border: none;
   cursor: pointer;
@@ -59,7 +60,7 @@ html {
 
 .CodeMirror {
   border: none;
-  height: 100vh; /* Adjust the height as needed, 'vh' stands for viewport height */
+  height: 63vh; /* Adjust the height as needed, 'vh' stands for viewport height */
 }
 /* Customize scrollbar for WebKit browsers */
 .CodeMirror::-webkit-scrollbar {
@@ -73,3 +74,249 @@ html {
 .CodeMirror::-webkit-scrollbar-track {
   background-color: #df1212; /* Set your desired track color */
 }
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Format Code button */
+.format-code-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.format-code-button:hover {
+  background-color: #3498db;
+}
+
+/* Choose File button */
+.choose-file-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.choose-file-button:hover {
+  background-color: #3498db;
+}
+
+/* No file chosen label */
+.custom-file-label {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Save File button */
+.save-file-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.save-file-button:hover {
+  background-color: #3498db;
+}
+
+/* Save to Local Storage button */
+.save-local-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.save-local-button:hover {
+  background-color: #3498db;
+}
+
+/* Load from Local Storage button */
+.load-local-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.load-local-button:hover {
+  background-color: #3498db;
+}
+
+/* White border (CodeMirror) */
+.CodeMirror {
+  border: 2px solid #56b6c2;
+  /* Adjust the border color and thickness as needed */
+}
+
+/* ... (rest of your styles) */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Custom-styled label */
+.custom-file-label {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.custom-file-label:hover {
+  background-color: #3498db;
+}
+
+/* ... (rest of your styles) */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Custom-styled label */
+.custom-file-label,
+.choose-file-button,
+.save-file-button,
+.save-local-button,
+.load-local-button,
+.format-code-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace; /* Use JetBrains Mono as the font */
+}
+
+.custom-file-label:hover,
+.choose-file-button:hover,
+.save-file-button:hover,
+.save-local-button:hover,
+.load-local-button:hover,
+.format-code-button:hover {
+  background-color: #3498db;
+}
+
+/* ... (rest of your styles) */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Custom-styled label and buttons */
+.custom-file-label,
+.choose-file-button,
+.save-file-button,
+.save-local-button,
+.load-local-button,
+.format-code-button {
+  background-color: #56b6c2;
+  color: #1e1e1e;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace; /* Use JetBrains Mono as the font */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.custom-file-label:hover,
+.choose-file-button:hover,
+.save-file-button:hover,
+.save-local-button:hover,
+.load-local-button:hover,
+.format-code-button:hover {
+  background-color: #3498db;
+}
+
+/* ... (rest of your styles) */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Custom-styled label and buttons with pastel colors */
+.custom-file-label,
+.choose-file-button,
+.save-file-button,
+.save-local-button,
+.load-local-button,
+.format-code-button {
+  background-color: #add8e6; /* Pastel Blue */
+  color: #1e1e1e;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace; /* Use JetBrains Mono as the font */
+  border-radius: 5px;
+}
+
+.custom-file-label:hover,
+.choose-file-button:hover,
+.save-file-button:hover,
+.save-local-button:hover,
+.load-local-button:hover,
+.format-code-button:hover {
+  background-color: #87cefa; /* Lighter Pastel Blue on hover */
+}
+
+/* ... (rest of your styles) */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Custom-styled label and buttons with adjusted margins */
+.custom-file-label,
+.choose-file-button,
+.save-file-button,
+.save-local-button,
+.load-local-button,
+.format-code-button {
+  background-color: #add8e6; /* Pastel Blue */
+  color: #1e1e1e;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: -300px; /* Adjusted top margin */
+  margin-bottom: 15px; /* Adjusted bottom margin */
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace; /* Use JetBrains Mono as the font */
+  border-radius: 8px;
+}
+
+.custom-file-label:hover,
+.choose-file-button:hover,
+.save-file-button:hover,
+.save-local-button:hover,
+.load-local-button:hover,
+.format-code-button:hover {
+  background-color: #87cefa; /* Lighter Pastel Blue on hover */
+}
+
+/* ... (rest of your styles) */
