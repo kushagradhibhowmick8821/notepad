@@ -105,7 +105,7 @@ button:hover,
 .save-local-button,
 .load-local-button,
 .format-code-button {
-  margin-top: 5vh; /* Updated value */
+  margin-top: 1vh; /* Updated value */
   margin-bottom: 10px;
   border-radius: 8px;
 }
