@@ -26,13 +26,13 @@ button,
 .format-code-button {
   background-color: #56b6c2;
   color: #1e1e1e;
-  padding: 10px;
+  padding: 5px;
   border: none;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
   font-family: "JetBrains Mono", monospace;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 button:hover,
