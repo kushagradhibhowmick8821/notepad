@@ -32,7 +32,7 @@ button,
   margin-top: 5px;
   display: inline-block;
   font-family: "JetBrains Mono", monospace;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 button:hover,
